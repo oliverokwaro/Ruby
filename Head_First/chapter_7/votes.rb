@@ -3,15 +3,15 @@ File.open("votes.txt") do |file|
 lines = file.readlines
 end
 
-votes = {}
+votes = Hash.new(0)
 
 lines.each do |line|
   name = line.chomp
-if votes[name] != nil
-  votes[name] += 1
-else 
-  votes[name] = 1
- end
+  name.upcase!
+  votes [name] += 1
 end
 
-p votes
+votes.each do |name, count|
+  puts "#{name} : #{count}"
+end
+
