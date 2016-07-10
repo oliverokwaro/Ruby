@@ -1,4 +1,4 @@
-first, second, third = AVG
+first, second, third = ARGV
 
 puts "Your fist variable is #{first}"
 puts "Your second variable is #{second}"
