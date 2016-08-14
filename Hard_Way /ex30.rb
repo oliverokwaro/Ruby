@@ -18,7 +18,7 @@
   elsif trucks < cars
       puts "Maybe we could take the trucks."
   else
-      puts "We still can't decide."
+      puts "We still can't decide for ourselves."
   end
 
   if people > trucks
