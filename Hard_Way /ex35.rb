@@ -72,7 +72,7 @@ exit(0)
 
     def start
     puts "You are in a dark room."
-    puts "There is a door to your right and left."
+    puts "There is a door to your right and left side."
     puts "Which one do you take?"
 
     print "> "
