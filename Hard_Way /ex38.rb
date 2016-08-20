@@ -14,7 +14,7 @@ stuff.push(next_one)
 
     puts "There we go: #{stuff}"
 
-    puts "Let's do some things with stuff."
+    puts "Let's do some things with stuff now."
 
     puts stuff[1]
     puts stuff[-1] # whoa! fancy
