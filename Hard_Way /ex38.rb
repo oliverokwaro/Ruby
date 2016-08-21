@@ -12,7 +12,7 @@ stuff.push(next_one)
     puts "There are #{stuff.length} items now."
     end
 
-    puts "There we go: #{stuff}"
+    puts "There we Go:! #{stuff}"
 
     puts "Let's do some things with stuff now."
 
